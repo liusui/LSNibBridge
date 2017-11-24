@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LSNibBridge_Example' do
+  pod 'LSNibBridge', :path => '../'
+
+  target 'LSNibBridge_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
