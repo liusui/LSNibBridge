@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LSNibBridge (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LSNibBridge (from `../`)
+
+EXTERNAL SOURCES:
+  LSNibBridge:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LSNibBridge: 4bce83a64b2e2d164877bac04a3c9083138c9f8c
+
+PODFILE CHECKSUM: 5267dd46515cc2b384cd3c2f8b7b681160b0a542
+
+COCOAPODS: 1.4.0.beta.2
