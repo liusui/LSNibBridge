@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LSNibBridge.h"
 
 FOUNDATION_EXPORT double LSNibBridgeVersionNumber;
 FOUNDATION_EXPORT const unsigned char LSNibBridgeVersionString[];
